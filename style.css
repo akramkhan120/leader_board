@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background: #FFFFFF;
+    padding: 30px;
+    width: 870px;
+    margin-top: 21px;
+    border-radius: 10px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+
+    color: #562EFF;
+    margin-top: 1px;
+    margin-bottom: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 13px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 45px;
+}
+.top-blogs{
+    display: flex;
+}
+.blog-image img{
+    width: 177px;
+    height: 117px;
+}
+.author-name{
+    margin-left: 14px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.author-name{
+    margin-top: -20px;
+}
+.author-name p{
+  
+  color: #9F9F9F;
+  margin-top: -20px;
+}
+.author{
+    text-decoration: none;
+    color: #562EFF;
+}
+.course-image{
+    width: 224px;
+    height: 104px;
+}
+.course-detail h3{
+    font-size: 20px;
+}
+.course-info p{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.course-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star{
+    Width :12.39px;
+    Height :11.81px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+.fa-clock.empty{
+    color: #FF4A60;
+}
+.duration{
+    color: #FF4A60;
+    border-radius: 15px;
+    font-size: 15px;
+    background: #FFE4E8;
+    Width :90.83px;
+    Height: 29.38px;
+   padding-left: 15px;
+}
+.latest-courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+}
+.header{
+    background: #562EFF;
+    height: 95px;
+    width: 1440px;
+    background-position: left;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.nav img{
+    width: 51px;
+    height: 51px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+
